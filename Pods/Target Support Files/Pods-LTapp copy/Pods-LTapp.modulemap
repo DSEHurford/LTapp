@@ -1,0 +1,6 @@
+framework module Pods_LTapp {
+  umbrella header "Pods-LTapp-umbrella.h"
+
+  export *
+  module * { export * }
+}

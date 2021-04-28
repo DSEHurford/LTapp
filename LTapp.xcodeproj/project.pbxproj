@@ -1,0 +1,888 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26E3BB3DCD9FDFF5B2BFA296 /* Pods_LTapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3C444D9049E648395654169 /* Pods_LTapp.framework */; };
+		C6CBDD9825ECF7FC005CBD01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDD9725ECF7FC005CBD01 /* AppDelegate.swift */; };
+		C6CBDD9A25ECF7FC005CBD01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDD9925ECF7FC005CBD01 /* SceneDelegate.swift */; };
+		C6CBDD9C25ECF7FC005CBD01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDD9B25ECF7FC005CBD01 /* ContentView.swift */; };
+		C6CBDD9E25ECF800005CBD01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6CBDD9D25ECF800005CBD01 /* Assets.xcassets */; };
+		C6CBDDA125ECF800005CBD01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6CBDDA025ECF800005CBD01 /* Preview Assets.xcassets */; };
+		C6CBDDA425ECF800005CBD01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6CBDDA225ECF800005CBD01 /* LaunchScreen.storyboard */; };
+		C6CBDDBD25ECFEAC005CBD01 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6CBDDBC25ECFEAC005CBD01 /* GoogleService-Info.plist */; };
+		C6CBDDE025ED34BC005CBD01 /* Feedback_page.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDDDF25ED34BC005CBD01 /* Feedback_page.swift */; };
+		C6CBDDE625EE508E005CBD01 /* Feelings_Days_W1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDDE525EE508E005CBD01 /* Feelings_Days_W1.swift */; };
+		C6CBDDE925EE50A6005CBD01 /* Feelings_Day_W2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDDE825EE50A6005CBD01 /* Feelings_Day_W2.swift */; };
+		C6CBDDEC25EE50B9005CBD01 /* Feelings_Day_W3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDDEB25EE50B9005CBD01 /* Feelings_Day_W3.swift */; };
+		C6CBDDF525EE5184005CBD01 /* Feelings_Day_W4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDDF425EE5184005CBD01 /* Feelings_Day_W4.swift */; };
+		C6CBDDF825EE5389005CBD01 /* LongQs_Monday_W1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDDF725EE5389005CBD01 /* LongQs_Monday_W1.swift */; };
+		C6CBDDFC25EE539E005CBD01 /* ShortQs_Tuesday_W1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDDFB25EE539E005CBD01 /* ShortQs_Tuesday_W1.swift */; };
+		C6CBDDFF25EE53BA005CBD01 /* ShortQs_Wednesday_W1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDDFE25EE53BA005CBD01 /* ShortQs_Wednesday_W1.swift */; };
+		C6CBDE0225EE53D2005CBD01 /* ShortQs_Thursday_W1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDE0125EE53D2005CBD01 /* ShortQs_Thursday_W1.swift */; };
+		C6CBDE0525EE53EB005CBD01 /* ShortQs_Friday_W1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDE0425EE53EB005CBD01 /* ShortQs_Friday_W1.swift */; };
+		C6CBDE0825EE5402005CBD01 /* ShortQs_Saturday_W1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDE0725EE5402005CBD01 /* ShortQs_Saturday_W1.swift */; };
+		C6CBDE0B25EE541A005CBD01 /* Qs_Sunday_W1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDE0A25EE541A005CBD01 /* Qs_Sunday_W1.swift */; };
+		C6CBDE8F25FA8700005CBD01 /* Week0.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDE8E25FA86FF005CBD01 /* Week0.swift */; };
+		C6CBDE9525FA889F005CBD01 /* ShortQs_Monday_W2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDE9425FA889F005CBD01 /* ShortQs_Monday_W2.swift */; };
+		C6CBDE9825FA88AE005CBD01 /* ShortQs_Tuesday_W2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDE9725FA88AE005CBD01 /* ShortQs_Tuesday_W2.swift */; };
+		C6CBDE9B25FA88C2005CBD01 /* ShortQs_Wednesday_W2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDE9A25FA88C2005CBD01 /* ShortQs_Wednesday_W2.swift */; };
+		C6CBDE9E25FA88D4005CBD01 /* ShortQs_Thursday_W2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDE9D25FA88D4005CBD01 /* ShortQs_Thursday_W2.swift */; };
+		C6CBDEA125FA88E2005CBD01 /* ShortQs_Friday_W2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDEA025FA88E2005CBD01 /* ShortQs_Friday_W2.swift */; };
+		C6CBDEA425FA88FA005CBD01 /* ShortQs_Saturday_W2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDEA325FA88FA005CBD01 /* ShortQs_Saturday_W2.swift */; };
+		C6CBDEA725FA890F005CBD01 /* LongQs_Sunday_W2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDEA625FA890F005CBD01 /* LongQs_Sunday_W2.swift */; };
+		C6CBDEAA25FA8A85005CBD01 /* ShortQs_Monday_W3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDEA925FA8A85005CBD01 /* ShortQs_Monday_W3.swift */; };
+		C6CBDEAD25FA8AA2005CBD01 /* ShortQs_Tuesday_W3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDEAC25FA8AA2005CBD01 /* ShortQs_Tuesday_W3.swift */; };
+		C6CBDEB125FA8ABF005CBD01 /* ShortQs_Wednesday_W3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDEB025FA8ABF005CBD01 /* ShortQs_Wednesday_W3.swift */; };
+		C6CBDEB425FA8AD2005CBD01 /* ShortQs_Thursday_W3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDEB325FA8AD2005CBD01 /* ShortQs_Thursday_W3.swift */; };
+		C6CBDEBB25FA8B06005CBD01 /* ShortQs_Friday_W3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDEBA25FA8B06005CBD01 /* ShortQs_Friday_W3.swift */; };
+		C6CBDEBE25FA8B1A005CBD01 /* ShortQs_Saturday_W3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDEBD25FA8B1A005CBD01 /* ShortQs_Saturday_W3.swift */; };
+		C6CBDEC125FA8B2F005CBD01 /* LongQs_Sunday_W3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDEC025FA8B2F005CBD01 /* LongQs_Sunday_W3.swift */; };
+		C6CBDEC425FA8BA1005CBD01 /* ShortQs_Monday_W4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDEC325FA8BA1005CBD01 /* ShortQs_Monday_W4.swift */; };
+		C6CBDEC725FA8BB4005CBD01 /* ShortQs_Tuesday_W4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDEC625FA8BB4005CBD01 /* ShortQs_Tuesday_W4.swift */; };
+		C6CBDECB25FA8BC3005CBD01 /* ShortQs_Wednesday_W4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDECA25FA8BC3005CBD01 /* ShortQs_Wednesday_W4.swift */; };
+		C6CBDECE25FA8BE4005CBD01 /* ShortQs_Thursday_W4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDECD25FA8BE4005CBD01 /* ShortQs_Thursday_W4.swift */; };
+		C6CBDED125FA8C00005CBD01 /* ShortQs_Friday_W4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDED025FA8C00005CBD01 /* ShortQs_Friday_W4.swift */; };
+		C6CBDED425FA8C13005CBD01 /* ShortQs_Saturday_W4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDED325FA8C13005CBD01 /* ShortQs_Saturday_W4.swift */; };
+		C6CBDED725FA8C27005CBD01 /* LongQs_Sunday_W4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDED625FA8C27005CBD01 /* LongQs_Sunday_W4.swift */; };
+		C6CBDF042604FF0F005CBD01 /* ShortQs_Monday_W5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF032604FF0F005CBD01 /* ShortQs_Monday_W5.swift */; };
+		C6CBDF072604FF25005CBD01 /* ShortQs_Tuesday_W5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF062604FF25005CBD01 /* ShortQs_Tuesday_W5.swift */; };
+		C6CBDF0A2604FF3F005CBD01 /* ShortQs_Wednesday_W5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF092604FF3F005CBD01 /* ShortQs_Wednesday_W5.swift */; };
+		C6CBDF0D2604FF56005CBD01 /* ShortQs_Thursday_W5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF0C2604FF56005CBD01 /* ShortQs_Thursday_W5.swift */; };
+		C6CBDF102604FF6A005CBD01 /* ShortQs_Friday_W5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF0F2604FF6A005CBD01 /* ShortQs_Friday_W5.swift */; };
+		C6CBDF132604FF7A005CBD01 /* ShortQs_Saturday_W5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF122604FF7A005CBD01 /* ShortQs_Saturday_W5.swift */; };
+		C6CBDF162604FF94005CBD01 /* LongQs_Sunday_W5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF152604FF94005CBD01 /* LongQs_Sunday_W5.swift */; };
+		C6CBDF192604FFA9005CBD01 /* ShortQs_Monday_W6.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF182604FFA9005CBD01 /* ShortQs_Monday_W6.swift */; };
+		C6CBDF1C2604FFC3005CBD01 /* ShortQs_Tuesday_W6.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF1B2604FFC3005CBD01 /* ShortQs_Tuesday_W6.swift */; };
+		C6CBDF1F2604FFCE005CBD01 /* ShortQs_Wednesday_W6.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF1E2604FFCE005CBD01 /* ShortQs_Wednesday_W6.swift */; };
+		C6CBDF222604FFE1005CBD01 /* ShortQs_Thursday_W6.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF212604FFE1005CBD01 /* ShortQs_Thursday_W6.swift */; };
+		C6CBDF252604FFFD005CBD01 /* ShortQs_Friday_W6.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF242604FFFD005CBD01 /* ShortQs_Friday_W6.swift */; };
+		C6CBDF2826050016005CBD01 /* ShortQs_Saturday_W6.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF2726050016005CBD01 /* ShortQs_Saturday_W6.swift */; };
+		C6CBDF2B2605002D005CBD01 /* LongQs_Sunday_W6.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF2A2605002D005CBD01 /* LongQs_Sunday_W6.swift */; };
+		C6CBDF3126050145005CBD01 /* Feelings_Day_W6.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF3026050145005CBD01 /* Feelings_Day_W6.swift */; };
+		C6CBDF34260501D3005CBD01 /* Feelings_Days_W5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF33260501D3005CBD01 /* Feelings_Days_W5.swift */; };
+		C6CBDF3926050467005CBD01 /* SleepDiary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF3826050466005CBD01 /* SleepDiary.swift */; };
+		C6CBDF3C26050594005CBD01 /* SD_Days_W0.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF3B26050594005CBD01 /* SD_Days_W0.swift */; };
+		C6CBDF3F260505A1005CBD01 /* SD_Days_W1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF3E260505A1005CBD01 /* SD_Days_W1.swift */; };
+		C6CBDF42260505AA005CBD01 /* SD_Days_W2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF41260505AA005CBD01 /* SD_Days_W2.swift */; };
+		C6CBDF45260505B5005CBD01 /* SD_Days_W3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF44260505B5005CBD01 /* SD_Days_W3.swift */; };
+		C6CBDF48260505E3005CBD01 /* SD_Days_W4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF47260505E3005CBD01 /* SD_Days_W4.swift */; };
+		C6CBDF4B260505ED005CBD01 /* SD_Days_W5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF4A260505ED005CBD01 /* SD_Days_W5.swift */; };
+		C6CBDF4E260505FB005CBD01 /* SD_Days_W6.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF4D260505FB005CBD01 /* SD_Days_W6.swift */; };
+		C6CBDF512605069B005CBD01 /* SD_Monday_W0.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF502605069B005CBD01 /* SD_Monday_W0.swift */; };
+		C6CBDF54260506AF005CBD01 /* SD_Tuesday_W0.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF53260506AF005CBD01 /* SD_Tuesday_W0.swift */; };
+		C6CBDF57260506BE005CBD01 /* SD_Wednesday_W0.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF56260506BE005CBD01 /* SD_Wednesday_W0.swift */; };
+		C6CBDF5A260506CF005CBD01 /* SD_Thursday_W0.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF59260506CF005CBD01 /* SD_Thursday_W0.swift */; };
+		C6CBDF5D260506DF005CBD01 /* SD_Friday_W0.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF5C260506DF005CBD01 /* SD_Friday_W0.swift */; };
+		C6CBDF60260506F0005CBD01 /* SD_Saturday_W0.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF5F260506F0005CBD01 /* SD_Saturday_W0.swift */; };
+		C6CBDF6326050708005CBD01 /* SD_Sunday_W0.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF6226050708005CBD01 /* SD_Sunday_W0.swift */; };
+		C6CBDF66260507BC005CBD01 /* SD_Monday_W1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF65260507BC005CBD01 /* SD_Monday_W1.swift */; };
+		C6CBDF69260507CE005CBD01 /* SD_Tuesday_W1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF68260507CE005CBD01 /* SD_Tuesday_W1.swift */; };
+		C6CBDF6C260507DC005CBD01 /* SD_Wednesday_W1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF6B260507DC005CBD01 /* SD_Wednesday_W1.swift */; };
+		C6CBDF6F260507ED005CBD01 /* SD_Thursday_W1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF6E260507ED005CBD01 /* SD_Thursday_W1.swift */; };
+		C6CBDF72260507FB005CBD01 /* SD_Friday_W1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF71260507FB005CBD01 /* SD_Friday_W1.swift */; };
+		C6CBDF752605080B005CBD01 /* SD_Saturday_W1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF742605080B005CBD01 /* SD_Saturday_W1.swift */; };
+		C6CBDF7826050819005CBD01 /* SD_Sunday_W1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF7726050819005CBD01 /* SD_Sunday_W1.swift */; };
+		C6CBDF7B26050864005CBD01 /* SD_Monday_W2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF7A26050864005CBD01 /* SD_Monday_W2.swift */; };
+		C6CBDF7E26050878005CBD01 /* SD_Tuesday_W2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF7D26050878005CBD01 /* SD_Tuesday_W2.swift */; };
+		C6CBDF812605088A005CBD01 /* SD_Wednesday_W2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF802605088A005CBD01 /* SD_Wednesday_W2.swift */; };
+		C6CBDF84260508A2005CBD01 /* SD_Thursday_W2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF83260508A2005CBD01 /* SD_Thursday_W2.swift */; };
+		C6CBDF87260508B2005CBD01 /* SD_Friday_W2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF86260508B2005CBD01 /* SD_Friday_W2.swift */; };
+		C6CBDF8A260508C6005CBD01 /* SD_Saturday_W2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF89260508C6005CBD01 /* SD_Saturday_W2.swift */; };
+		C6CBDF8D260508D8005CBD01 /* SD_Sunday_W2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF8C260508D8005CBD01 /* SD_Sunday_W2.swift */; };
+		C6CBDF90260508F4005CBD01 /* SD_Monday_W3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF8F260508F4005CBD01 /* SD_Monday_W3.swift */; };
+		C6CBDF93260508FF005CBD01 /* SD_Tuesday_W3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF92260508FF005CBD01 /* SD_Tuesday_W3.swift */; };
+		C6CBDF962605090E005CBD01 /* SD_Wednesday_W3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF952605090E005CBD01 /* SD_Wednesday_W3.swift */; };
+		C6CBDF9926050927005CBD01 /* SD_Thursday_W3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF9826050927005CBD01 /* SD_Thursday_W3.swift */; };
+		C6CBDF9C26050939005CBD01 /* SD_Friday_W3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF9B26050939005CBD01 /* SD_Friday_W3.swift */; };
+		C6CBDF9F26050948005CBD01 /* SD_Saturday_W3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDF9E26050948005CBD01 /* SD_Saturday_W3.swift */; };
+		C6CBDFA226050957005CBD01 /* SD_Sunday_W3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDFA126050957005CBD01 /* SD_Sunday_W3.swift */; };
+		C6CBDFA52605097D005CBD01 /* SD_Monday_W4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDFA42605097C005CBD01 /* SD_Monday_W4.swift */; };
+		C6CBDFA826050987005CBD01 /* SD_Tuesday_W4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDFA726050987005CBD01 /* SD_Tuesday_W4.swift */; };
+		C6CBDFAB26050996005CBD01 /* SD_Wednesday_W4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDFAA26050996005CBD01 /* SD_Wednesday_W4.swift */; };
+		C6CBDFAE260509A3005CBD01 /* SD_Thursday_W4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDFAD260509A3005CBD01 /* SD_Thursday_W4.swift */; };
+		C6CBDFB1260509B2005CBD01 /* SD_Friday_W4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDFB0260509B2005CBD01 /* SD_Friday_W4.swift */; };
+		C6CBDFB4260509C2005CBD01 /* SD_Saturday_W4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDFB3260509C2005CBD01 /* SD_Saturday_W4.swift */; };
+		C6CBDFB7260509D0005CBD01 /* SD_Sunday_W4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDFB6260509D0005CBD01 /* SD_Sunday_W4.swift */; };
+		C6CBDFBA260509F6005CBD01 /* SD_Monday_W5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDFB9260509F6005CBD01 /* SD_Monday_W5.swift */; };
+		C6CBDFBD26050A06005CBD01 /* SD_Tuesday_W5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDFBC26050A06005CBD01 /* SD_Tuesday_W5.swift */; };
+		C6CBDFC026050A20005CBD01 /* SD_Wednesday_W5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDFBF26050A20005CBD01 /* SD_Wednesday_W5.swift */; };
+		C6CBDFC326050A31005CBD01 /* SD_Thursday_W5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDFC226050A31005CBD01 /* SD_Thursday_W5.swift */; };
+		C6CBDFC626050A63005CBD01 /* SD_Friday_W5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDFC526050A62005CBD01 /* SD_Friday_W5.swift */; };
+		C6CBDFC926050A74005CBD01 /* SD_Saturday_W5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDFC826050A74005CBD01 /* SD_Saturday_W5.swift */; };
+		C6CBDFCC26050A92005CBD01 /* SD_Sunday_W5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDFCB26050A92005CBD01 /* SD_Sunday_W5.swift */; };
+		C6CBDFCF26050AA9005CBD01 /* SD_Monday_W6.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDFCE26050AA9005CBD01 /* SD_Monday_W6.swift */; };
+		C6CBDFD226050AB3005CBD01 /* SD_Tuesday_W6.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDFD126050AB3005CBD01 /* SD_Tuesday_W6.swift */; };
+		C6CBDFD526050AC6005CBD01 /* SD_Wednesday_W6.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDFD426050AC6005CBD01 /* SD_Wednesday_W6.swift */; };
+		C6CBDFD826050AE3005CBD01 /* SD_Thursday_W6.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDFD726050AE3005CBD01 /* SD_Thursday_W6.swift */; };
+		C6CBDFDB26050B29005CBD01 /* SD_Friday_W6.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDFDA26050B29005CBD01 /* SD_Friday_W6.swift */; };
+		C6CBDFDE26050B38005CBD01 /* SD_Saturday_W6.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDFDD26050B38005CBD01 /* SD_Saturday_W6.swift */; };
+		C6CBDFE126050B45005CBD01 /* SD_Sunday_W6.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDFE026050B45005CBD01 /* SD_Sunday_W6.swift */; };
+		C6CBDFE426051241005CBD01 /* Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDFE326051241005CBD01 /* Usage.swift */; };
+		C6CBDFE72605131F005CBD01 /* Usage_W1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDFE62605131F005CBD01 /* Usage_W1.swift */; };
+		C6CBDFEA26051384005CBD01 /* Usage_W2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDFE926051384005CBD01 /* Usage_W2.swift */; };
+		C6CBDFED260513D1005CBD01 /* Usage_W3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDFEC260513D1005CBD01 /* Usage_W3.swift */; };
+		C6CBDFF0260513DD005CBD01 /* Usage_W4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDFEF260513DD005CBD01 /* Usage_W4.swift */; };
+		C6CBDFF3260513EA005CBD01 /* Usage_W5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDFF2260513EA005CBD01 /* Usage_W5.swift */; };
+		C6CBDFF6260513FF005CBD01 /* Usage_W6.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDFF5260513FF005CBD01 /* Usage_W6.swift */; };
+		C6CBDFF92605EBD6005CBD01 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CBDFF82605EBD5005CBD01 /* MainScreen.swift */; };
+		C6EFD747260B326F00A7C841 /* FWeeks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EFD746260B326F00A7C841 /* FWeeks.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FBD89808E28241408F2EA4E /* Pods-LTapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTapp.release.xcconfig"; path = "Target Support Files/Pods-LTapp/Pods-LTapp.release.xcconfig"; sourceTree = "<group>"; };
+		4FB12575BB67C57307E84C64 /* Pods-LTapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTapp.debug.xcconfig"; path = "Target Support Files/Pods-LTapp/Pods-LTapp.debug.xcconfig"; sourceTree = "<group>"; };
+		C6CBDD9425ECF7FC005CBD01 /* LTapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6CBDD9725ECF7FC005CBD01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6CBDD9925ECF7FC005CBD01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C6CBDD9B25ECF7FC005CBD01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C6CBDD9D25ECF800005CBD01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6CBDDA025ECF800005CBD01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C6CBDDA325ECF800005CBD01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6CBDDA525ECF800005CBD01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6CBDDBC25ECFEAC005CBD01 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C6CBDDDF25ED34BC005CBD01 /* Feedback_page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feedback_page.swift; sourceTree = "<group>"; };
+		C6CBDDE525EE508E005CBD01 /* Feelings_Days_W1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feelings_Days_W1.swift; sourceTree = "<group>"; };
+		C6CBDDE825EE50A6005CBD01 /* Feelings_Day_W2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feelings_Day_W2.swift; sourceTree = "<group>"; };
+		C6CBDDEB25EE50B9005CBD01 /* Feelings_Day_W3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feelings_Day_W3.swift; sourceTree = "<group>"; };
+		C6CBDDF425EE5184005CBD01 /* Feelings_Day_W4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feelings_Day_W4.swift; sourceTree = "<group>"; };
+		C6CBDDF725EE5389005CBD01 /* LongQs_Monday_W1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongQs_Monday_W1.swift; sourceTree = "<group>"; };
+		C6CBDDFB25EE539E005CBD01 /* ShortQs_Tuesday_W1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Tuesday_W1.swift; sourceTree = "<group>"; };
+		C6CBDDFE25EE53BA005CBD01 /* ShortQs_Wednesday_W1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Wednesday_W1.swift; sourceTree = "<group>"; };
+		C6CBDE0125EE53D2005CBD01 /* ShortQs_Thursday_W1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Thursday_W1.swift; sourceTree = "<group>"; };
+		C6CBDE0425EE53EB005CBD01 /* ShortQs_Friday_W1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Friday_W1.swift; sourceTree = "<group>"; };
+		C6CBDE0725EE5402005CBD01 /* ShortQs_Saturday_W1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Saturday_W1.swift; sourceTree = "<group>"; };
+		C6CBDE0A25EE541A005CBD01 /* Qs_Sunday_W1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Qs_Sunday_W1.swift; sourceTree = "<group>"; };
+		C6CBDE8E25FA86FF005CBD01 /* Week0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week0.swift; sourceTree = "<group>"; };
+		C6CBDE9425FA889F005CBD01 /* ShortQs_Monday_W2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Monday_W2.swift; sourceTree = "<group>"; };
+		C6CBDE9725FA88AE005CBD01 /* ShortQs_Tuesday_W2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Tuesday_W2.swift; sourceTree = "<group>"; };
+		C6CBDE9A25FA88C2005CBD01 /* ShortQs_Wednesday_W2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Wednesday_W2.swift; sourceTree = "<group>"; };
+		C6CBDE9D25FA88D4005CBD01 /* ShortQs_Thursday_W2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Thursday_W2.swift; sourceTree = "<group>"; };
+		C6CBDEA025FA88E2005CBD01 /* ShortQs_Friday_W2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Friday_W2.swift; sourceTree = "<group>"; };
+		C6CBDEA325FA88FA005CBD01 /* ShortQs_Saturday_W2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Saturday_W2.swift; sourceTree = "<group>"; };
+		C6CBDEA625FA890F005CBD01 /* LongQs_Sunday_W2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongQs_Sunday_W2.swift; sourceTree = "<group>"; };
+		C6CBDEA925FA8A85005CBD01 /* ShortQs_Monday_W3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Monday_W3.swift; sourceTree = "<group>"; };
+		C6CBDEAC25FA8AA2005CBD01 /* ShortQs_Tuesday_W3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Tuesday_W3.swift; sourceTree = "<group>"; };
+		C6CBDEB025FA8ABF005CBD01 /* ShortQs_Wednesday_W3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Wednesday_W3.swift; sourceTree = "<group>"; };
+		C6CBDEB325FA8AD2005CBD01 /* ShortQs_Thursday_W3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Thursday_W3.swift; sourceTree = "<group>"; };
+		C6CBDEBA25FA8B06005CBD01 /* ShortQs_Friday_W3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Friday_W3.swift; sourceTree = "<group>"; };
+		C6CBDEBD25FA8B1A005CBD01 /* ShortQs_Saturday_W3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Saturday_W3.swift; sourceTree = "<group>"; };
+		C6CBDEC025FA8B2F005CBD01 /* LongQs_Sunday_W3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongQs_Sunday_W3.swift; sourceTree = "<group>"; };
+		C6CBDEC325FA8BA1005CBD01 /* ShortQs_Monday_W4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Monday_W4.swift; sourceTree = "<group>"; };
+		C6CBDEC625FA8BB4005CBD01 /* ShortQs_Tuesday_W4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Tuesday_W4.swift; sourceTree = "<group>"; };
+		C6CBDECA25FA8BC3005CBD01 /* ShortQs_Wednesday_W4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Wednesday_W4.swift; sourceTree = "<group>"; };
+		C6CBDECD25FA8BE4005CBD01 /* ShortQs_Thursday_W4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Thursday_W4.swift; sourceTree = "<group>"; };
+		C6CBDED025FA8C00005CBD01 /* ShortQs_Friday_W4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Friday_W4.swift; sourceTree = "<group>"; };
+		C6CBDED325FA8C13005CBD01 /* ShortQs_Saturday_W4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Saturday_W4.swift; sourceTree = "<group>"; };
+		C6CBDED625FA8C27005CBD01 /* LongQs_Sunday_W4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongQs_Sunday_W4.swift; sourceTree = "<group>"; };
+		C6CBDF032604FF0F005CBD01 /* ShortQs_Monday_W5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Monday_W5.swift; sourceTree = "<group>"; };
+		C6CBDF062604FF25005CBD01 /* ShortQs_Tuesday_W5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Tuesday_W5.swift; sourceTree = "<group>"; };
+		C6CBDF092604FF3F005CBD01 /* ShortQs_Wednesday_W5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Wednesday_W5.swift; sourceTree = "<group>"; };
+		C6CBDF0C2604FF56005CBD01 /* ShortQs_Thursday_W5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Thursday_W5.swift; sourceTree = "<group>"; };
+		C6CBDF0F2604FF6A005CBD01 /* ShortQs_Friday_W5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Friday_W5.swift; sourceTree = "<group>"; };
+		C6CBDF122604FF7A005CBD01 /* ShortQs_Saturday_W5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Saturday_W5.swift; sourceTree = "<group>"; };
+		C6CBDF152604FF94005CBD01 /* LongQs_Sunday_W5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongQs_Sunday_W5.swift; sourceTree = "<group>"; };
+		C6CBDF182604FFA9005CBD01 /* ShortQs_Monday_W6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Monday_W6.swift; sourceTree = "<group>"; };
+		C6CBDF1B2604FFC3005CBD01 /* ShortQs_Tuesday_W6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Tuesday_W6.swift; sourceTree = "<group>"; };
+		C6CBDF1E2604FFCE005CBD01 /* ShortQs_Wednesday_W6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Wednesday_W6.swift; sourceTree = "<group>"; };
+		C6CBDF212604FFE1005CBD01 /* ShortQs_Thursday_W6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Thursday_W6.swift; sourceTree = "<group>"; };
+		C6CBDF242604FFFD005CBD01 /* ShortQs_Friday_W6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Friday_W6.swift; sourceTree = "<group>"; };
+		C6CBDF2726050016005CBD01 /* ShortQs_Saturday_W6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortQs_Saturday_W6.swift; sourceTree = "<group>"; };
+		C6CBDF2A2605002D005CBD01 /* LongQs_Sunday_W6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongQs_Sunday_W6.swift; sourceTree = "<group>"; };
+		C6CBDF3026050145005CBD01 /* Feelings_Day_W6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feelings_Day_W6.swift; sourceTree = "<group>"; };
+		C6CBDF33260501D3005CBD01 /* Feelings_Days_W5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feelings_Days_W5.swift; sourceTree = "<group>"; };
+		C6CBDF3826050466005CBD01 /* SleepDiary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepDiary.swift; sourceTree = "<group>"; };
+		C6CBDF3B26050594005CBD01 /* SD_Days_W0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Days_W0.swift; sourceTree = "<group>"; };
+		C6CBDF3E260505A1005CBD01 /* SD_Days_W1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Days_W1.swift; sourceTree = "<group>"; };
+		C6CBDF41260505AA005CBD01 /* SD_Days_W2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Days_W2.swift; sourceTree = "<group>"; };
+		C6CBDF44260505B5005CBD01 /* SD_Days_W3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Days_W3.swift; sourceTree = "<group>"; };
+		C6CBDF47260505E3005CBD01 /* SD_Days_W4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Days_W4.swift; sourceTree = "<group>"; };
+		C6CBDF4A260505ED005CBD01 /* SD_Days_W5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Days_W5.swift; sourceTree = "<group>"; };
+		C6CBDF4D260505FB005CBD01 /* SD_Days_W6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Days_W6.swift; sourceTree = "<group>"; };
+		C6CBDF502605069B005CBD01 /* SD_Monday_W0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Monday_W0.swift; sourceTree = "<group>"; };
+		C6CBDF53260506AF005CBD01 /* SD_Tuesday_W0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Tuesday_W0.swift; sourceTree = "<group>"; };
+		C6CBDF56260506BE005CBD01 /* SD_Wednesday_W0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Wednesday_W0.swift; sourceTree = "<group>"; };
+		C6CBDF59260506CF005CBD01 /* SD_Thursday_W0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Thursday_W0.swift; sourceTree = "<group>"; };
+		C6CBDF5C260506DF005CBD01 /* SD_Friday_W0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Friday_W0.swift; sourceTree = "<group>"; };
+		C6CBDF5F260506F0005CBD01 /* SD_Saturday_W0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Saturday_W0.swift; sourceTree = "<group>"; };
+		C6CBDF6226050708005CBD01 /* SD_Sunday_W0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Sunday_W0.swift; sourceTree = "<group>"; };
+		C6CBDF65260507BC005CBD01 /* SD_Monday_W1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Monday_W1.swift; sourceTree = "<group>"; };
+		C6CBDF68260507CE005CBD01 /* SD_Tuesday_W1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Tuesday_W1.swift; sourceTree = "<group>"; };
+		C6CBDF6B260507DC005CBD01 /* SD_Wednesday_W1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Wednesday_W1.swift; sourceTree = "<group>"; };
+		C6CBDF6E260507ED005CBD01 /* SD_Thursday_W1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Thursday_W1.swift; sourceTree = "<group>"; };
+		C6CBDF71260507FB005CBD01 /* SD_Friday_W1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Friday_W1.swift; sourceTree = "<group>"; };
+		C6CBDF742605080B005CBD01 /* SD_Saturday_W1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Saturday_W1.swift; sourceTree = "<group>"; };
+		C6CBDF7726050819005CBD01 /* SD_Sunday_W1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Sunday_W1.swift; sourceTree = "<group>"; };
+		C6CBDF7A26050864005CBD01 /* SD_Monday_W2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Monday_W2.swift; sourceTree = "<group>"; };
+		C6CBDF7D26050878005CBD01 /* SD_Tuesday_W2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Tuesday_W2.swift; sourceTree = "<group>"; };
+		C6CBDF802605088A005CBD01 /* SD_Wednesday_W2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Wednesday_W2.swift; sourceTree = "<group>"; };
+		C6CBDF83260508A2005CBD01 /* SD_Thursday_W2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Thursday_W2.swift; sourceTree = "<group>"; };
+		C6CBDF86260508B2005CBD01 /* SD_Friday_W2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Friday_W2.swift; sourceTree = "<group>"; };
+		C6CBDF89260508C6005CBD01 /* SD_Saturday_W2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Saturday_W2.swift; sourceTree = "<group>"; };
+		C6CBDF8C260508D8005CBD01 /* SD_Sunday_W2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Sunday_W2.swift; sourceTree = "<group>"; };
+		C6CBDF8F260508F4005CBD01 /* SD_Monday_W3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Monday_W3.swift; sourceTree = "<group>"; };
+		C6CBDF92260508FF005CBD01 /* SD_Tuesday_W3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Tuesday_W3.swift; sourceTree = "<group>"; };
+		C6CBDF952605090E005CBD01 /* SD_Wednesday_W3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Wednesday_W3.swift; sourceTree = "<group>"; };
+		C6CBDF9826050927005CBD01 /* SD_Thursday_W3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Thursday_W3.swift; sourceTree = "<group>"; };
+		C6CBDF9B26050939005CBD01 /* SD_Friday_W3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Friday_W3.swift; sourceTree = "<group>"; };
+		C6CBDF9E26050948005CBD01 /* SD_Saturday_W3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Saturday_W3.swift; sourceTree = "<group>"; };
+		C6CBDFA126050957005CBD01 /* SD_Sunday_W3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Sunday_W3.swift; sourceTree = "<group>"; };
+		C6CBDFA42605097C005CBD01 /* SD_Monday_W4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Monday_W4.swift; sourceTree = "<group>"; };
+		C6CBDFA726050987005CBD01 /* SD_Tuesday_W4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Tuesday_W4.swift; sourceTree = "<group>"; };
+		C6CBDFAA26050996005CBD01 /* SD_Wednesday_W4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Wednesday_W4.swift; sourceTree = "<group>"; };
+		C6CBDFAD260509A3005CBD01 /* SD_Thursday_W4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Thursday_W4.swift; sourceTree = "<group>"; };
+		C6CBDFB0260509B2005CBD01 /* SD_Friday_W4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Friday_W4.swift; sourceTree = "<group>"; };
+		C6CBDFB3260509C2005CBD01 /* SD_Saturday_W4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Saturday_W4.swift; sourceTree = "<group>"; };
+		C6CBDFB6260509D0005CBD01 /* SD_Sunday_W4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Sunday_W4.swift; sourceTree = "<group>"; };
+		C6CBDFB9260509F6005CBD01 /* SD_Monday_W5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Monday_W5.swift; sourceTree = "<group>"; };
+		C6CBDFBC26050A06005CBD01 /* SD_Tuesday_W5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Tuesday_W5.swift; sourceTree = "<group>"; };
+		C6CBDFBF26050A20005CBD01 /* SD_Wednesday_W5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Wednesday_W5.swift; sourceTree = "<group>"; };
+		C6CBDFC226050A31005CBD01 /* SD_Thursday_W5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Thursday_W5.swift; sourceTree = "<group>"; };
+		C6CBDFC526050A62005CBD01 /* SD_Friday_W5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Friday_W5.swift; sourceTree = "<group>"; };
+		C6CBDFC826050A74005CBD01 /* SD_Saturday_W5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Saturday_W5.swift; sourceTree = "<group>"; };
+		C6CBDFCB26050A92005CBD01 /* SD_Sunday_W5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Sunday_W5.swift; sourceTree = "<group>"; };
+		C6CBDFCE26050AA9005CBD01 /* SD_Monday_W6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Monday_W6.swift; sourceTree = "<group>"; };
+		C6CBDFD126050AB3005CBD01 /* SD_Tuesday_W6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Tuesday_W6.swift; sourceTree = "<group>"; };
+		C6CBDFD426050AC6005CBD01 /* SD_Wednesday_W6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Wednesday_W6.swift; sourceTree = "<group>"; };
+		C6CBDFD726050AE3005CBD01 /* SD_Thursday_W6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Thursday_W6.swift; sourceTree = "<group>"; };
+		C6CBDFDA26050B29005CBD01 /* SD_Friday_W6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Friday_W6.swift; sourceTree = "<group>"; };
+		C6CBDFDD26050B38005CBD01 /* SD_Saturday_W6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Saturday_W6.swift; sourceTree = "<group>"; };
+		C6CBDFE026050B45005CBD01 /* SD_Sunday_W6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SD_Sunday_W6.swift; sourceTree = "<group>"; };
+		C6CBDFE326051241005CBD01 /* Usage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usage.swift; sourceTree = "<group>"; };
+		C6CBDFE62605131F005CBD01 /* Usage_W1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usage_W1.swift; sourceTree = "<group>"; };
+		C6CBDFE926051384005CBD01 /* Usage_W2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usage_W2.swift; sourceTree = "<group>"; };
+		C6CBDFEC260513D1005CBD01 /* Usage_W3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usage_W3.swift; sourceTree = "<group>"; };
+		C6CBDFEF260513DD005CBD01 /* Usage_W4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usage_W4.swift; sourceTree = "<group>"; };
+		C6CBDFF2260513EA005CBD01 /* Usage_W5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usage_W5.swift; sourceTree = "<group>"; };
+		C6CBDFF5260513FF005CBD01 /* Usage_W6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usage_W6.swift; sourceTree = "<group>"; };
+		C6CBDFF82605EBD5005CBD01 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		C6EFD746260B326F00A7C841 /* FWeeks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FWeeks.swift; sourceTree = "<group>"; };
+		E3C444D9049E648395654169 /* Pods_LTapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6CBDD9125ECF7FC005CBD01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E3BB3DCD9FDFF5B2BFA296 /* Pods_LTapp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6CBDD8B25ECF7FC005CBD01 = {
+			isa = PBXGroup;
+			children = (
+				C6CBDD9625ECF7FC005CBD01 /* LTapp */,
+				C6CBDD9525ECF7FC005CBD01 /* Products */,
+				EB776001ED64AB1621833F8A /* Pods */,
+				E035DFAE56B6C3660423825B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C6CBDD9525ECF7FC005CBD01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6CBDD9425ECF7FC005CBD01 /* LTapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6CBDD9625ECF7FC005CBD01 /* LTapp */ = {
+			isa = PBXGroup;
+			children = (
+				C6CBDDBC25ECFEAC005CBD01 /* GoogleService-Info.plist */,
+				C6CBDD9725ECF7FC005CBD01 /* AppDelegate.swift */,
+				C6CBDD9925ECF7FC005CBD01 /* SceneDelegate.swift */,
+				C6CBDD9B25ECF7FC005CBD01 /* ContentView.swift */,
+				C6CBDFF82605EBD5005CBD01 /* MainScreen.swift */,
+				C6CBDFE326051241005CBD01 /* Usage.swift */,
+				C6CBDFE62605131F005CBD01 /* Usage_W1.swift */,
+				C6CBDFE926051384005CBD01 /* Usage_W2.swift */,
+				C6CBDFEC260513D1005CBD01 /* Usage_W3.swift */,
+				C6CBDFEF260513DD005CBD01 /* Usage_W4.swift */,
+				C6CBDFF2260513EA005CBD01 /* Usage_W5.swift */,
+				C6CBDFF5260513FF005CBD01 /* Usage_W6.swift */,
+				C6CBDDDF25ED34BC005CBD01 /* Feedback_page.swift */,
+				C6EFD746260B326F00A7C841 /* FWeeks.swift */,
+				C6CBDE8E25FA86FF005CBD01 /* Week0.swift */,
+				C6CBDDE525EE508E005CBD01 /* Feelings_Days_W1.swift */,
+				C6CBDDF725EE5389005CBD01 /* LongQs_Monday_W1.swift */,
+				C6CBDDFB25EE539E005CBD01 /* ShortQs_Tuesday_W1.swift */,
+				C6CBDDFE25EE53BA005CBD01 /* ShortQs_Wednesday_W1.swift */,
+				C6CBDE0125EE53D2005CBD01 /* ShortQs_Thursday_W1.swift */,
+				C6CBDE0425EE53EB005CBD01 /* ShortQs_Friday_W1.swift */,
+				C6CBDE0725EE5402005CBD01 /* ShortQs_Saturday_W1.swift */,
+				C6CBDE0A25EE541A005CBD01 /* Qs_Sunday_W1.swift */,
+				C6CBDDE825EE50A6005CBD01 /* Feelings_Day_W2.swift */,
+				C6CBDE9425FA889F005CBD01 /* ShortQs_Monday_W2.swift */,
+				C6CBDE9725FA88AE005CBD01 /* ShortQs_Tuesday_W2.swift */,
+				C6CBDE9A25FA88C2005CBD01 /* ShortQs_Wednesday_W2.swift */,
+				C6CBDE9D25FA88D4005CBD01 /* ShortQs_Thursday_W2.swift */,
+				C6CBDEA025FA88E2005CBD01 /* ShortQs_Friday_W2.swift */,
+				C6CBDEA325FA88FA005CBD01 /* ShortQs_Saturday_W2.swift */,
+				C6CBDEA625FA890F005CBD01 /* LongQs_Sunday_W2.swift */,
+				C6CBDDEB25EE50B9005CBD01 /* Feelings_Day_W3.swift */,
+				C6CBDEA925FA8A85005CBD01 /* ShortQs_Monday_W3.swift */,
+				C6CBDEAC25FA8AA2005CBD01 /* ShortQs_Tuesday_W3.swift */,
+				C6CBDEB025FA8ABF005CBD01 /* ShortQs_Wednesday_W3.swift */,
+				C6CBDEB325FA8AD2005CBD01 /* ShortQs_Thursday_W3.swift */,
+				C6CBDEBA25FA8B06005CBD01 /* ShortQs_Friday_W3.swift */,
+				C6CBDEBD25FA8B1A005CBD01 /* ShortQs_Saturday_W3.swift */,
+				C6CBDEC025FA8B2F005CBD01 /* LongQs_Sunday_W3.swift */,
+				C6CBDDF425EE5184005CBD01 /* Feelings_Day_W4.swift */,
+				C6CBDEC325FA8BA1005CBD01 /* ShortQs_Monday_W4.swift */,
+				C6CBDEC625FA8BB4005CBD01 /* ShortQs_Tuesday_W4.swift */,
+				C6CBDECA25FA8BC3005CBD01 /* ShortQs_Wednesday_W4.swift */,
+				C6CBDECD25FA8BE4005CBD01 /* ShortQs_Thursday_W4.swift */,
+				C6CBDED025FA8C00005CBD01 /* ShortQs_Friday_W4.swift */,
+				C6CBDED325FA8C13005CBD01 /* ShortQs_Saturday_W4.swift */,
+				C6CBDED625FA8C27005CBD01 /* LongQs_Sunday_W4.swift */,
+				C6CBDF33260501D3005CBD01 /* Feelings_Days_W5.swift */,
+				C6CBDF032604FF0F005CBD01 /* ShortQs_Monday_W5.swift */,
+				C6CBDF062604FF25005CBD01 /* ShortQs_Tuesday_W5.swift */,
+				C6CBDF092604FF3F005CBD01 /* ShortQs_Wednesday_W5.swift */,
+				C6CBDF0C2604FF56005CBD01 /* ShortQs_Thursday_W5.swift */,
+				C6CBDF0F2604FF6A005CBD01 /* ShortQs_Friday_W5.swift */,
+				C6CBDF122604FF7A005CBD01 /* ShortQs_Saturday_W5.swift */,
+				C6CBDF152604FF94005CBD01 /* LongQs_Sunday_W5.swift */,
+				C6CBDF3026050145005CBD01 /* Feelings_Day_W6.swift */,
+				C6CBDF182604FFA9005CBD01 /* ShortQs_Monday_W6.swift */,
+				C6CBDF1B2604FFC3005CBD01 /* ShortQs_Tuesday_W6.swift */,
+				C6CBDF1E2604FFCE005CBD01 /* ShortQs_Wednesday_W6.swift */,
+				C6CBDF212604FFE1005CBD01 /* ShortQs_Thursday_W6.swift */,
+				C6CBDF242604FFFD005CBD01 /* ShortQs_Friday_W6.swift */,
+				C6CBDF2726050016005CBD01 /* ShortQs_Saturday_W6.swift */,
+				C6CBDF2A2605002D005CBD01 /* LongQs_Sunday_W6.swift */,
+				C6CBDF3826050466005CBD01 /* SleepDiary.swift */,
+				C6CBDF3B26050594005CBD01 /* SD_Days_W0.swift */,
+				C6CBDF502605069B005CBD01 /* SD_Monday_W0.swift */,
+				C6CBDF53260506AF005CBD01 /* SD_Tuesday_W0.swift */,
+				C6CBDF56260506BE005CBD01 /* SD_Wednesday_W0.swift */,
+				C6CBDF59260506CF005CBD01 /* SD_Thursday_W0.swift */,
+				C6CBDF5C260506DF005CBD01 /* SD_Friday_W0.swift */,
+				C6CBDF5F260506F0005CBD01 /* SD_Saturday_W0.swift */,
+				C6CBDF6226050708005CBD01 /* SD_Sunday_W0.swift */,
+				C6CBDF3E260505A1005CBD01 /* SD_Days_W1.swift */,
+				C6CBDF65260507BC005CBD01 /* SD_Monday_W1.swift */,
+				C6CBDF68260507CE005CBD01 /* SD_Tuesday_W1.swift */,
+				C6CBDF6B260507DC005CBD01 /* SD_Wednesday_W1.swift */,
+				C6CBDF6E260507ED005CBD01 /* SD_Thursday_W1.swift */,
+				C6CBDF71260507FB005CBD01 /* SD_Friday_W1.swift */,
+				C6CBDF742605080B005CBD01 /* SD_Saturday_W1.swift */,
+				C6CBDF7726050819005CBD01 /* SD_Sunday_W1.swift */,
+				C6CBDF41260505AA005CBD01 /* SD_Days_W2.swift */,
+				C6CBDF7A26050864005CBD01 /* SD_Monday_W2.swift */,
+				C6CBDF7D26050878005CBD01 /* SD_Tuesday_W2.swift */,
+				C6CBDF802605088A005CBD01 /* SD_Wednesday_W2.swift */,
+				C6CBDF83260508A2005CBD01 /* SD_Thursday_W2.swift */,
+				C6CBDF86260508B2005CBD01 /* SD_Friday_W2.swift */,
+				C6CBDF89260508C6005CBD01 /* SD_Saturday_W2.swift */,
+				C6CBDF8C260508D8005CBD01 /* SD_Sunday_W2.swift */,
+				C6CBDF44260505B5005CBD01 /* SD_Days_W3.swift */,
+				C6CBDF8F260508F4005CBD01 /* SD_Monday_W3.swift */,
+				C6CBDF92260508FF005CBD01 /* SD_Tuesday_W3.swift */,
+				C6CBDF952605090E005CBD01 /* SD_Wednesday_W3.swift */,
+				C6CBDF9826050927005CBD01 /* SD_Thursday_W3.swift */,
+				C6CBDF9B26050939005CBD01 /* SD_Friday_W3.swift */,
+				C6CBDF9E26050948005CBD01 /* SD_Saturday_W3.swift */,
+				C6CBDFA126050957005CBD01 /* SD_Sunday_W3.swift */,
+				C6CBDF47260505E3005CBD01 /* SD_Days_W4.swift */,
+				C6CBDFA42605097C005CBD01 /* SD_Monday_W4.swift */,
+				C6CBDFA726050987005CBD01 /* SD_Tuesday_W4.swift */,
+				C6CBDFAA26050996005CBD01 /* SD_Wednesday_W4.swift */,
+				C6CBDFAD260509A3005CBD01 /* SD_Thursday_W4.swift */,
+				C6CBDFB0260509B2005CBD01 /* SD_Friday_W4.swift */,
+				C6CBDFB3260509C2005CBD01 /* SD_Saturday_W4.swift */,
+				C6CBDFB6260509D0005CBD01 /* SD_Sunday_W4.swift */,
+				C6CBDF4A260505ED005CBD01 /* SD_Days_W5.swift */,
+				C6CBDFB9260509F6005CBD01 /* SD_Monday_W5.swift */,
+				C6CBDFBC26050A06005CBD01 /* SD_Tuesday_W5.swift */,
+				C6CBDFBF26050A20005CBD01 /* SD_Wednesday_W5.swift */,
+				C6CBDFC226050A31005CBD01 /* SD_Thursday_W5.swift */,
+				C6CBDFC526050A62005CBD01 /* SD_Friday_W5.swift */,
+				C6CBDFC826050A74005CBD01 /* SD_Saturday_W5.swift */,
+				C6CBDFCB26050A92005CBD01 /* SD_Sunday_W5.swift */,
+				C6CBDF4D260505FB005CBD01 /* SD_Days_W6.swift */,
+				C6CBDFCE26050AA9005CBD01 /* SD_Monday_W6.swift */,
+				C6CBDFD126050AB3005CBD01 /* SD_Tuesday_W6.swift */,
+				C6CBDFD426050AC6005CBD01 /* SD_Wednesday_W6.swift */,
+				C6CBDFD726050AE3005CBD01 /* SD_Thursday_W6.swift */,
+				C6CBDFDA26050B29005CBD01 /* SD_Friday_W6.swift */,
+				C6CBDFDD26050B38005CBD01 /* SD_Saturday_W6.swift */,
+				C6CBDFE026050B45005CBD01 /* SD_Sunday_W6.swift */,
+				C6CBDD9D25ECF800005CBD01 /* Assets.xcassets */,
+				C6CBDDA225ECF800005CBD01 /* LaunchScreen.storyboard */,
+				C6CBDDA525ECF800005CBD01 /* Info.plist */,
+				C6CBDD9F25ECF800005CBD01 /* Preview Content */,
+			);
+			path = LTapp;
+			sourceTree = "<group>";
+		};
+		C6CBDD9F25ECF800005CBD01 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C6CBDDA025ECF800005CBD01 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E035DFAE56B6C3660423825B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3C444D9049E648395654169 /* Pods_LTapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB776001ED64AB1621833F8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FB12575BB67C57307E84C64 /* Pods-LTapp.debug.xcconfig */,
+				2FBD89808E28241408F2EA4E /* Pods-LTapp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6CBDD9325ECF7FC005CBD01 /* LTapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6CBDDA825ECF800005CBD01 /* Build configuration list for PBXNativeTarget "LTapp" */;
+			buildPhases = (
+				12D6013184ECE780C34E092A /* [CP] Check Pods Manifest.lock */,
+				C6CBDD9025ECF7FC005CBD01 /* Sources */,
+				C6CBDD9125ECF7FC005CBD01 /* Frameworks */,
+				C6CBDD9225ECF7FC005CBD01 /* Resources */,
+				BE47A83BE621775965DF42E9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTapp;
+			productName = LTapp;
+			productReference = C6CBDD9425ECF7FC005CBD01 /* LTapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6CBDD8C25ECF7FC005CBD01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C6CBDD9325ECF7FC005CBD01 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = C6CBDD8F25ECF7FC005CBD01 /* Build configuration list for PBXProject "LTapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6CBDD8B25ECF7FC005CBD01;
+			productRefGroup = C6CBDD9525ECF7FC005CBD01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6CBDD9325ECF7FC005CBD01 /* LTapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6CBDD9225ECF7FC005CBD01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6CBDDA425ECF800005CBD01 /* LaunchScreen.storyboard in Resources */,
+				C6CBDDBD25ECFEAC005CBD01 /* GoogleService-Info.plist in Resources */,
+				C6CBDDA125ECF800005CBD01 /* Preview Assets.xcassets in Resources */,
+				C6CBDD9E25ECF800005CBD01 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12D6013184ECE780C34E092A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LTapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE47A83BE621775965DF42E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LTapp/Pods-LTapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LTapp/Pods-LTapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LTapp/Pods-LTapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6CBDD9025ECF7FC005CBD01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6CBDEAD25FA8AA2005CBD01 /* ShortQs_Tuesday_W3.swift in Sources */,
+				C6CBDF5D260506DF005CBD01 /* SD_Friday_W0.swift in Sources */,
+				C6CBDF512605069B005CBD01 /* SD_Monday_W0.swift in Sources */,
+				C6CBDF45260505B5005CBD01 /* SD_Days_W3.swift in Sources */,
+				C6CBDEB425FA8AD2005CBD01 /* ShortQs_Thursday_W3.swift in Sources */,
+				C6CBDE8F25FA8700005CBD01 /* Week0.swift in Sources */,
+				C6CBDF192604FFA9005CBD01 /* ShortQs_Monday_W6.swift in Sources */,
+				C6CBDF1C2604FFC3005CBD01 /* ShortQs_Tuesday_W6.swift in Sources */,
+				C6CBDF9F26050948005CBD01 /* SD_Saturday_W3.swift in Sources */,
+				C6CBDD9825ECF7FC005CBD01 /* AppDelegate.swift in Sources */,
+				C6CBDED725FA8C27005CBD01 /* LongQs_Sunday_W4.swift in Sources */,
+				C6CBDF9926050927005CBD01 /* SD_Thursday_W3.swift in Sources */,
+				C6CBDF7B26050864005CBD01 /* SD_Monday_W2.swift in Sources */,
+				C6CBDE0B25EE541A005CBD01 /* Qs_Sunday_W1.swift in Sources */,
+				C6CBDF4E260505FB005CBD01 /* SD_Days_W6.swift in Sources */,
+				C6CBDED125FA8C00005CBD01 /* ShortQs_Friday_W4.swift in Sources */,
+				C6CBDF4B260505ED005CBD01 /* SD_Days_W5.swift in Sources */,
+				C6CBDF252604FFFD005CBD01 /* ShortQs_Friday_W6.swift in Sources */,
+				C6CBDFC926050A74005CBD01 /* SD_Saturday_W5.swift in Sources */,
+				C6CBDFAB26050996005CBD01 /* SD_Wednesday_W4.swift in Sources */,
+				C6CBDFDB26050B29005CBD01 /* SD_Friday_W6.swift in Sources */,
+				C6CBDF132604FF7A005CBD01 /* ShortQs_Saturday_W5.swift in Sources */,
+				C6EFD747260B326F00A7C841 /* FWeeks.swift in Sources */,
+				C6CBDF72260507FB005CBD01 /* SD_Friday_W1.swift in Sources */,
+				C6CBDE9E25FA88D4005CBD01 /* ShortQs_Thursday_W2.swift in Sources */,
+				C6CBDFF6260513FF005CBD01 /* Usage_W6.swift in Sources */,
+				C6CBDFD526050AC6005CBD01 /* SD_Wednesday_W6.swift in Sources */,
+				C6CBDDE025ED34BC005CBD01 /* Feedback_page.swift in Sources */,
+				C6CBDFB7260509D0005CBD01 /* SD_Sunday_W4.swift in Sources */,
+				C6CBDE0825EE5402005CBD01 /* ShortQs_Saturday_W1.swift in Sources */,
+				C6CBDFEA26051384005CBD01 /* Usage_W2.swift in Sources */,
+				C6CBDFC326050A31005CBD01 /* SD_Thursday_W5.swift in Sources */,
+				C6CBDF962605090E005CBD01 /* SD_Wednesday_W3.swift in Sources */,
+				C6CBDF3C26050594005CBD01 /* SD_Days_W0.swift in Sources */,
+				C6CBDFB4260509C2005CBD01 /* SD_Saturday_W4.swift in Sources */,
+				C6CBDE9525FA889F005CBD01 /* ShortQs_Monday_W2.swift in Sources */,
+				C6CBDF9C26050939005CBD01 /* SD_Friday_W3.swift in Sources */,
+				C6CBDEA425FA88FA005CBD01 /* ShortQs_Saturday_W2.swift in Sources */,
+				C6CBDDFF25EE53BA005CBD01 /* ShortQs_Wednesday_W1.swift in Sources */,
+				C6CBDF3F260505A1005CBD01 /* SD_Days_W1.swift in Sources */,
+				C6CBDF102604FF6A005CBD01 /* ShortQs_Friday_W5.swift in Sources */,
+				C6CBDECB25FA8BC3005CBD01 /* ShortQs_Wednesday_W4.swift in Sources */,
+				C6CBDDEC25EE50B9005CBD01 /* Feelings_Day_W3.swift in Sources */,
+				C6CBDEC125FA8B2F005CBD01 /* LongQs_Sunday_W3.swift in Sources */,
+				C6CBDEBB25FA8B06005CBD01 /* ShortQs_Friday_W3.swift in Sources */,
+				C6CBDF2826050016005CBD01 /* ShortQs_Saturday_W6.swift in Sources */,
+				C6CBDF48260505E3005CBD01 /* SD_Days_W4.swift in Sources */,
+				C6CBDF7E26050878005CBD01 /* SD_Tuesday_W2.swift in Sources */,
+				C6CBDF6C260507DC005CBD01 /* SD_Wednesday_W1.swift in Sources */,
+				C6CBDF84260508A2005CBD01 /* SD_Thursday_W2.swift in Sources */,
+				C6CBDF2B2605002D005CBD01 /* LongQs_Sunday_W6.swift in Sources */,
+				C6CBDF042604FF0F005CBD01 /* ShortQs_Monday_W5.swift in Sources */,
+				C6CBDE9825FA88AE005CBD01 /* ShortQs_Tuesday_W2.swift in Sources */,
+				C6CBDF87260508B2005CBD01 /* SD_Friday_W2.swift in Sources */,
+				C6CBDEC425FA8BA1005CBD01 /* ShortQs_Monday_W4.swift in Sources */,
+				C6CBDDF525EE5184005CBD01 /* Feelings_Day_W4.swift in Sources */,
+				C6CBDE9B25FA88C2005CBD01 /* ShortQs_Wednesday_W2.swift in Sources */,
+				C6CBDF8A260508C6005CBD01 /* SD_Saturday_W2.swift in Sources */,
+				C6CBDF60260506F0005CBD01 /* SD_Saturday_W0.swift in Sources */,
+				C6CBDF072604FF25005CBD01 /* ShortQs_Tuesday_W5.swift in Sources */,
+				C6CBDF69260507CE005CBD01 /* SD_Tuesday_W1.swift in Sources */,
+				C6CBDFAE260509A3005CBD01 /* SD_Thursday_W4.swift in Sources */,
+				C6CBDD9A25ECF7FC005CBD01 /* SceneDelegate.swift in Sources */,
+				C6CBDF8D260508D8005CBD01 /* SD_Sunday_W2.swift in Sources */,
+				C6CBDF1F2604FFCE005CBD01 /* ShortQs_Wednesday_W6.swift in Sources */,
+				C6CBDF93260508FF005CBD01 /* SD_Tuesday_W3.swift in Sources */,
+				C6CBDFE426051241005CBD01 /* Usage.swift in Sources */,
+				C6CBDEBE25FA8B1A005CBD01 /* ShortQs_Saturday_W3.swift in Sources */,
+				C6CBDEA125FA88E2005CBD01 /* ShortQs_Friday_W2.swift in Sources */,
+				C6CBDF6F260507ED005CBD01 /* SD_Thursday_W1.swift in Sources */,
+				C6CBDF54260506AF005CBD01 /* SD_Tuesday_W0.swift in Sources */,
+				C6CBDF752605080B005CBD01 /* SD_Saturday_W1.swift in Sources */,
+				C6CBDFBD26050A06005CBD01 /* SD_Tuesday_W5.swift in Sources */,
+				C6CBDE0225EE53D2005CBD01 /* ShortQs_Thursday_W1.swift in Sources */,
+				C6CBDDF825EE5389005CBD01 /* LongQs_Monday_W1.swift in Sources */,
+				C6CBDDE625EE508E005CBD01 /* Feelings_Days_W1.swift in Sources */,
+				C6CBDF5A260506CF005CBD01 /* SD_Thursday_W0.swift in Sources */,
+				C6CBDFA226050957005CBD01 /* SD_Sunday_W3.swift in Sources */,
+				C6CBDFA52605097D005CBD01 /* SD_Monday_W4.swift in Sources */,
+				C6CBDF6326050708005CBD01 /* SD_Sunday_W0.swift in Sources */,
+				C6CBDF57260506BE005CBD01 /* SD_Wednesday_W0.swift in Sources */,
+				C6CBDEC725FA8BB4005CBD01 /* ShortQs_Tuesday_W4.swift in Sources */,
+				C6CBDEA725FA890F005CBD01 /* LongQs_Sunday_W2.swift in Sources */,
+				C6CBDFD226050AB3005CBD01 /* SD_Tuesday_W6.swift in Sources */,
+				C6CBDF34260501D3005CBD01 /* Feelings_Days_W5.swift in Sources */,
+				C6CBDEAA25FA8A85005CBD01 /* ShortQs_Monday_W3.swift in Sources */,
+				C6CBDFF0260513DD005CBD01 /* Usage_W4.swift in Sources */,
+				C6CBDFD826050AE3005CBD01 /* SD_Thursday_W6.swift in Sources */,
+				C6CBDFBA260509F6005CBD01 /* SD_Monday_W5.swift in Sources */,
+				C6CBDF3126050145005CBD01 /* Feelings_Day_W6.swift in Sources */,
+				C6CBDFA826050987005CBD01 /* SD_Tuesday_W4.swift in Sources */,
+				C6CBDECE25FA8BE4005CBD01 /* ShortQs_Thursday_W4.swift in Sources */,
+				C6CBDE0525EE53EB005CBD01 /* ShortQs_Friday_W1.swift in Sources */,
+				C6CBDF0A2604FF3F005CBD01 /* ShortQs_Wednesday_W5.swift in Sources */,
+				C6CBDF3926050467005CBD01 /* SleepDiary.swift in Sources */,
+				C6CBDF42260505AA005CBD01 /* SD_Days_W2.swift in Sources */,
+				C6CBDF812605088A005CBD01 /* SD_Wednesday_W2.swift in Sources */,
+				C6CBDF66260507BC005CBD01 /* SD_Monday_W1.swift in Sources */,
+				C6CBDFE126050B45005CBD01 /* SD_Sunday_W6.swift in Sources */,
+				C6CBDDE925EE50A6005CBD01 /* Feelings_Day_W2.swift in Sources */,
+				C6CBDFED260513D1005CBD01 /* Usage_W3.swift in Sources */,
+				C6CBDFF92605EBD6005CBD01 /* MainScreen.swift in Sources */,
+				C6CBDFB1260509B2005CBD01 /* SD_Friday_W4.swift in Sources */,
+				C6CBDF0D2604FF56005CBD01 /* ShortQs_Thursday_W5.swift in Sources */,
+				C6CBDDFC25EE539E005CBD01 /* ShortQs_Tuesday_W1.swift in Sources */,
+				C6CBDFDE26050B38005CBD01 /* SD_Saturday_W6.swift in Sources */,
+				C6CBDD9C25ECF7FC005CBD01 /* ContentView.swift in Sources */,
+				C6CBDFE72605131F005CBD01 /* Usage_W1.swift in Sources */,
+				C6CBDED425FA8C13005CBD01 /* ShortQs_Saturday_W4.swift in Sources */,
+				C6CBDFCF26050AA9005CBD01 /* SD_Monday_W6.swift in Sources */,
+				C6CBDF222604FFE1005CBD01 /* ShortQs_Thursday_W6.swift in Sources */,
+				C6CBDF90260508F4005CBD01 /* SD_Monday_W3.swift in Sources */,
+				C6CBDFCC26050A92005CBD01 /* SD_Sunday_W5.swift in Sources */,
+				C6CBDFC626050A63005CBD01 /* SD_Friday_W5.swift in Sources */,
+				C6CBDEB125FA8ABF005CBD01 /* ShortQs_Wednesday_W3.swift in Sources */,
+				C6CBDFC026050A20005CBD01 /* SD_Wednesday_W5.swift in Sources */,
+				C6CBDFF3260513EA005CBD01 /* Usage_W5.swift in Sources */,
+				C6CBDF7826050819005CBD01 /* SD_Sunday_W1.swift in Sources */,
+				C6CBDF162604FF94005CBD01 /* LongQs_Sunday_W5.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C6CBDDA225ECF800005CBD01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6CBDDA325ECF800005CBD01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6CBDDA625ECF800005CBD01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6CBDDA725ECF800005CBD01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6CBDDA925ECF800005CBD01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FB12575BB67C57307E84C64 /* Pods-LTapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LTapp/Preview Content\"";
+				DEVELOPMENT_TEAM = 745G5BU8C2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LTapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Danielle-Hurford.LTapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6CBDDAA25ECF800005CBD01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FBD89808E28241408F2EA4E /* Pods-LTapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LTapp/Preview Content\"";
+				DEVELOPMENT_TEAM = 745G5BU8C2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LTapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Danielle-Hurford.LTapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6CBDD8F25ECF7FC005CBD01 /* Build configuration list for PBXProject "LTapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6CBDDA625ECF800005CBD01 /* Debug */,
+				C6CBDDA725ECF800005CBD01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6CBDDA825ECF800005CBD01 /* Build configuration list for PBXNativeTarget "LTapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6CBDDA925ECF800005CBD01 /* Debug */,
+				C6CBDDAA25ECF800005CBD01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6CBDD8C25ECF7FC005CBD01 /* Project object */;
+}
